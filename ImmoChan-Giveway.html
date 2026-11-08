@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>♡ Immo Chan Giveaway ♡</title>
+  <meta name="description" content="Enter the Immo Chan Gaming Channel 475 VP Valorant Giveaway!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    /* ── VARIABLES ── */
+    :root {
+      --pd:   #1e0040;
+      --pd2:  #2d0057;
+      --pm:   #5a0bad;
+      --pb:   #7c1fd4;
+      --pl:   #a855f7;
+      --pp:   #c084fc;
+      --lav:  #e9d5ff;
+      --pk:   #f0abfc;
+      --pkp:  #fce7f3;
+      --tl:   #f3e8ff;
+      --tm:   #c084fc;
+      --cbg:  rgba(255,255,255,0.065);
+      --cbr:  rgba(168,85,247,0.28);
+      --sc:   0 8px 32px rgba(30,0,64,0.55);
+      --sh:   0 18px 50px rgba(124,31,212,0.5);
+      --rs:   12px; --rm: 20px; --rl: 32px;
+      --tr:   0.3s cubic-bezier(.4,0,.2,1);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Nunito',sans-serif;background:var(--pd);color:var(--tl);min-height:100vh;overflow-x:hidden;line-height:1.6}
+
+    /* ── BACKGROUND ── */
+    .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+    .bg::before{content:'';position:absolute;inset:0;background:
+      radial-gradient(ellipse 80% 60% at 10% 5%,rgba(90,11,173,.75) 0%,transparent 55%),
+      radial-gradient(ellipse 55% 70% at 90% 15%,rgba(124,31,212,.55) 0%,transparent 55%),
+      radial-gradient(ellipse 60% 50% at 50% 80%,rgba(45,0,87,.85) 0%,transparent 55%),
+      linear-gradient(150deg,#1e0040 0%,#2d0057 35%,#12002e 65%,#1e0040 100%);
+      animation:bgp 9s ease-in-out infinite alternate}
+    @keyframes bgp{0%{opacity:1}100%{opacity:.82}}
+    .orb{position:absolute;border-radius:50%;filter:blur(65px);opacity:.22;animation:flt linear infinite}
+    .o1{width:420px;height:420px;background:var(--pm);top:-110px;left:-110px;animation-duration:21s}
+    .o2{width:320px;height:320px;background:var(--pk);top:28%;right:-90px;animation-duration:26s;animation-delay:-9s}
+    .o3{width:260px;height:260px;background:var(--pb);bottom:8%;left:18%;animation-duration:19s;animation-delay:-5s}
+    .o4{width:200px;height:200px;background:var(--lav);bottom:28%;right:12%;animation-duration:23s;animation-delay:-13s}
+    @keyframes flt{0%{transform:translate(0,0) scale(1)}33%{transform:translate(28px,-38px) scale(1.05)}66%{transform:translate(-18px,18px) scale(.95)}100%{transform:translate(0,0) scale(1)}}
+    .stars{position:absolute;inset:0}
+    .star{position:absolute;border-radius:50%;background:#fff;animation:twk ease-in-out infinite alternate}
+    @keyframes twk{0%{opacity:.08;transform:scale(.8)}100%{opacity:.75;transform:scale(1.2)}}
+
+    /* ── LAYOUT ── */
+    .wrap{position:relative;z-index:1;max-width:1080px;margin:0 auto;padding:0 18px}
+
+    /* ── HEADER ── */
+    header{text-align:center;padding:56px 20px 36px}
+    .brand-pill{display:inline-block;background:rgba(255,255,255,.07);border:1px solid var(--cbr);border-radius:100px;padding:5px 20px;font-size:.78rem;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--pp);margin-bottom:18px;backdrop-filter:blur(8px)}
+    .hero-title{font-family:'Quicksand',sans-serif;font-size:clamp(2rem,6vw,3.8rem);font-weight:800;line-height:1.1;margin-bottom:10px;background:linear-gradient(135deg,#fff 0%,#c084fc 40%,#f0abfc 70%,#a855f7 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 28px rgba(168,85,247,.6));animation:shm 4s ease-in-out infinite alternate}
+    @keyframes shm{0%{filter:drop-shadow(0 0 18px rgba(168,85,247,.5))}100%{filter:drop-shadow(0 0 46px rgba(240,171,252,.8))}}
+    .hero-sub{font-size:.95rem;color:var(--tm);margin-bottom:6px;letter-spacing:.5px}
+    .chl{color:var(--pp);text-decoration:none;font-weight:700;transition:color var(--tr)}
+    .chl:hover{color:var(--pk);text-shadow:0 0 10px var(--pk)}
+
+    /* ── STATUS ── */
+    .status-wrap{display:flex;justify-content:center;margin:20px 0}
+    .sbadge{display:inline-flex;align-items:center;gap:8px;padding:9px 22px;border-radius:100px;font-weight:800;font-size:.85rem;letter-spacing:1px;text-transform:uppercase;border:2px solid;backdrop-filter:blur(8px)}
+    .sbadge.active{background:rgba(74,222,128,.13);border-color:rgba(74,222,128,.45);color:#86efac;box-shadow:0 0 18px rgba(74,222,128,.28)}
+    .sbadge.upcoming{background:rgba(250,204,21,.13);border-color:rgba(250,204,21,.45);color:#fde047;box-shadow:0 0 18px rgba(250,204,21,.28)}
+    .sbadge.closed{background:rgba(248,113,113,.13);border-color:rgba(248,113,113,.45);color:#fca5a5;box-shadow:0 0 18px rgba(248,113,113,.28)}
+    .sdot{width:8px;height:8px;border-radius:50%;background:currentColor;animation:pd 1.5s ease-in-out infinite}
+    @keyframes pd{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.45);opacity:.55}}
+
+    /* ── PRIZE BANNER ── */
+    .prize{position:relative;background:linear-gradient(135deg,rgba(124,31,212,.38) 0%,rgba(45,0,87,.6) 50%,rgba(30,0,64,.5) 100%);border:2px solid var(--cbr);border-radius:var(--rl);padding:46px 30px;text-align:center;margin:28px 0;overflow:hidden;backdrop-filter:blur(14px);box-shadow:var(--sc),inset 0 1px 0 rgba(255,255,255,.08)}
+    .prize::before{content:'';position:absolute;top:-50%;left:-50%;width:200%;height:200%;background:conic-gradient(from 0deg,transparent,rgba(168,85,247,.07) 60deg,transparent 120deg);animation:rot 11s linear infinite}
+    @keyframes rot{to{transform:rotate(360deg)}}
+    .prize-inner{position:relative;z-index:1}
+    .prize-icon{font-size:3.8rem;margin-bottom:10px;display:block;filter:drop-shadow(0 0 18px rgba(240,171,252,.8));animation:bnc 2s ease-in-out infinite}
+    @keyframes bnc{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .prize-amt{font-family:'Quicksand',sans-serif;font-size:clamp(2.6rem,8vw,5rem);font-weight:800;background:linear-gradient(135deg,#fbbf24 0%,#f0abfc 50%,#a855f7 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;filter:drop-shadow(0 0 18px rgba(251,191,36,.45));line-height:1}
+    .prize-lbl{font-size:1rem;color:var(--tm);margin:7px 0 3px;font-weight:600}
+    .prize-game{display:inline-block;background:rgba(255,70,85,.18);border:1px solid rgba(255,70,85,.38);color:#fca5a5;padding:3px 14px;border-radius:100px;font-size:.82rem;font-weight:700;letter-spacing:1px;margin-top:7px}
+    .pmeta{display:flex;justify-content:center;gap:22px;margin-top:22px;flex-wrap:wrap}
+    .pmeta-item{display:flex;flex-direction:column;align-items:center;gap:3px}
+    .pmeta-item .mv{font-family:'Quicksand',sans-serif;font-size:1.4rem;font-weight:800;color:var(--pp)}
+    .pmeta-item .mk{font-size:.7rem;color:var(--tm);text-transform:uppercase;letter-spacing:1px}
+    .pdiv{width:1px;height:38px;background:var(--cbr);align-self:center}
+
+    /* ── COUNTDOWN ── */
+    .section{margin:44px 0}
+    .sec-title{text-align:center;font-family:'Quicksand',sans-serif;font-size:1.45rem;font-weight:700;color:var(--pp);margin-bottom:26px;display:flex;align-items:center;justify-content:center;gap:10px}
+    .sec-title::before,.sec-title::after{content:'';flex:1;max-width:80px;height:1px;background:linear-gradient(90deg,transparent,var(--cbr))}
+    .sec-title::after{background:linear-gradient(90deg,var(--cbr),transparent)}
+    .cg{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .cbox{display:flex;flex-direction:column;align-items:center;background:var(--cbg);border:1px solid var(--cbr);border-radius:var(--rm);padding:22px 18px 14px;min-width:86px;backdrop-filter:blur(12px);box-shadow:var(--sc);transition:transform var(--tr),box-shadow var(--tr);position:relative;overflow:hidden}
+    .cbox::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04) 0%,transparent 60%);pointer-events:none}
+    .cbox:hover{transform:translateY(-4px);box-shadow:var(--sh)}
+    .cnum{font-family:'Quicksand',sans-serif;font-size:2.8rem;font-weight:800;line-height:1;background:linear-gradient(135deg,#fff,var(--pp));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .clbl{font-size:.68rem;text-transform:uppercase;letter-spacing:2px;color:var(--tm);margin-top:5px;font-weight:700}
+    .csep{font-size:2.2rem;color:var(--pl);align-self:center;font-weight:300;margin-top:-7px}
+
+    /* ── CTA ── */
+    .cta-wrap{text-align:center;margin:34px 0}
+    .btn-enter{display:inline-flex;align-items:center;gap:10px;background:linear-gradient(135deg,var(--pm),var(--pb),#b040ff);color:#fff;border:none;border-radius:100px;padding:17px 46px;font-family:'Quicksand',sans-serif;font-size:1.1rem;font-weight:800;cursor:pointer;position:relative;overflow:hidden;transition:all var(--tr);box-shadow:0 8px 30px rgba(124,31,212,.6),0 2px 8px rgba(0,0,0,.3);letter-spacing:.5px}
+    .btn-enter::before{content:'';position:absolute;top:-50%;left:-60%;width:60%;height:200%;background:rgba(255,255,255,.18);transform:skewX(-20deg);transition:left .5s}
+    .btn-enter:hover::before{left:110%}
+    .btn-enter:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 16px 46px rgba(124,31,212,.78),0 4px 14px rgba(0,0,0,.3)}
+    .btn-enter:active{transform:scale(.98)}
+    .btn-enter.closed{background:linear-gradient(135deg,#444,#222);cursor:not-allowed;box-shadow:none}
+    .btn-enter.closed:hover{transform:none}
+    .btn-enter.entered{background:linear-gradient(135deg,#166534,#15803d);cursor:default}
+    .btn-enter.entered:hover{transform:none;box-shadow:0 8px 30px rgba(22,101,52,.5)}
+
+    /* ── CARDS ── */
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(248px,1fr));gap:18px;margin:28px 0}
+    .card{background:var(--cbg);border:1px solid var(--cbr);border-radius:var(--rm);padding:26px 22px;backdrop-filter:blur(12px);box-shadow:var(--sc);transition:transform var(--tr),box-shadow var(--tr);position:relative;overflow:hidden}
+    .card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--pl),transparent)}
+    .card:hover{transform:translateY(-5px);box-shadow:var(--sh)}
+    .card-icon{font-size:1.9rem;margin-bottom:10px;display:block;filter:drop-shadow(0 0 7px rgba(168,85,247,.6))}
+    .card-title{font-family:'Quicksand',sans-serif;font-size:1.05rem;font-weight:700;color:var(--pp);margin-bottom:7px}
+    .card-text{color:var(--tm);font-size:.86rem;line-height:1.6}
+
+    /* ── RULES ── */
+    .rules-card{background:var(--cbg);border:1px solid var(--cbr);border-radius:var(--rm);padding:34px;backdrop-filter:blur(12px);box-shadow:var(--sc)}
+    .rules-list{list-style:none;display:flex;flex-direction:column;gap:13px}
+    .rules-list li{display:flex;align-items:flex-start;gap:11px;font-size:.9rem;color:var(--tm);line-height:1.55}
+    .rn{flex-shrink:0;width:25px;height:25px;background:linear-gradient(135deg,var(--pm),var(--pb));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.7rem;font-weight:800;color:#fff;margin-top:1px}
+    .rdis{margin-top:18px;padding:14px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07);border-radius:var(--rs);font-size:.78rem;color:var(--tm);line-height:1.6}
+
+    /* ── WINNER ── */
+    .winner-sec{background:var(--cbg);border:1px solid var(--cbr);border-radius:var(--rm);padding:38px 30px;text-align:center;backdrop-filter:blur(12px);box-shadow:var(--sc)}
+    .w-ph{display:flex;flex-direction:column;align-items:center;gap:11px}
+    .wtrophy{font-size:2.8rem;opacity:.38}
+    .wpend{font-size:.95rem;color:var(--tm)}
+    .wannounced{display:none;flex-direction:column;align-items:center;gap:11px}
+    .wname{font-family:'Quicksand',sans-serif;font-size:1.9rem;font-weight:800;background:linear-gradient(135deg,#fbbf24,#f0abfc);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+    /* ── ENTRY MODAL ── */
+    .modal-ov{position:fixed;inset:0;background:rgba(8,0,22,.88);backdrop-filter:blur(9px);z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;opacity:0;pointer-events:none;transition:opacity var(--tr)}
+    .modal-ov.open{opacity:1;pointer-events:all}
+    .modal-box{background:linear-gradient(145deg,#380068,#240050);border:1px solid var(--cbr);border-radius:var(--rl);padding:0;width:100%;max-width:560px;box-shadow:0 24px 80px rgba(0,0,0,.65),0 0 60px rgba(124,31,212,.28);transform:scale(.9) translateY(22px);transition:transform .4s cubic-bezier(.34,1.56,.64,1);max-height:92vh;overflow-y:auto;position:relative}
+    .modal-ov.open .modal-box{transform:scale(1) translateY(0)}
+
+    /* Progress bar */
+    .prog-bar{height:4px;background:rgba(255,255,255,.08);border-radius:4px 4px 0 0;overflow:hidden}
+    .prog-fill{height:100%;background:linear-gradient(90deg,var(--pm),var(--pb),var(--pk));border-radius:4px;transition:width .4s ease}
+
+    /* Steps indicator */
+    .steps-ind{display:flex;align-items:center;justify-content:center;gap:6px;padding:18px 24px 0}
+    .step-dot{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.2);transition:all .3s;cursor:default}
+    .step-dot.done{background:var(--pm)}
+    .step-dot.active{background:var(--pb);width:22px;border-radius:4px;box-shadow:0 0 8px rgba(168,85,247,.6)}
+
+    .modal-pad{padding:24px 32px 32px}
+    .modal-close{position:absolute;top:14px;right:16px;background:rgba(255,255,255,.07);border:1px solid var(--cbr);color:var(--tm);border-radius:50%;width:34px;height:34px;font-size:1rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--tr);z-index:10}
+    .modal-close:hover{background:rgba(255,255,255,.14);color:#fff}
+    .mh{text-align:center;margin-bottom:22px}
+    .mh h2{font-family:'Quicksand',sans-serif;font-size:1.5rem;font-weight:800;background:linear-gradient(135deg,#fff,var(--pp));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+    .mh p{color:var(--tm);font-size:.84rem;margin-top:5px}
+    .step-panel{display:none}
+    .step-panel.active{display:block}
+
+    /* Form inputs */
+    .fg{margin-bottom:18px}
+    .fl{display:block;font-size:.82rem;font-weight:700;color:var(--pp);margin-bottom:7px;letter-spacing:.4px}
+    .fl .opt{font-weight:400;color:var(--tm);font-size:.76rem}
+    .fi{width:100%;background:rgba(255,255,255,.055);border:1.5px solid rgba(168,85,247,.28);border-radius:var(--rs);padding:13px 15px;color:var(--tl);font-family:'Nunito',sans-serif;font-size:.93rem;outline:none;transition:all var(--tr)}
+    .fi::placeholder{color:rgba(255,255,255,.28)}
+    .fi:focus{border-color:var(--pb);background:rgba(255,255,255,.09);box-shadow:0 0 0 3px rgba(124,31,212,.22)}
+    .fi.err{border-color:#f87171;box-shadow:0 0 0 3px rgba(248,113,113,.18)}
+    .fhint{font-size:.76rem;color:var(--tm);margin-top:4px}
+    .ferr{font-size:.78rem;color:#fca5a5;margin-top:4px;display:none}
+    .ferr.show{display:block}
+
+    /* Upload box */
+    .upload-box{border:2px dashed rgba(168,85,247,.35);border-radius:var(--rs);padding:20px;text-align:center;cursor:pointer;transition:all var(--tr);background:rgba(255,255,255,.03);position:relative}
+    .upload-box:hover,.upload-box.drag{border-color:var(--pb);background:rgba(124,31,212,.1)}
+    .upload-box input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+    .upload-icon{font-size:1.8rem;margin-bottom:6px}
+    .upload-txt{font-size:.82rem;color:var(--tm)}
+    .upload-txt strong{color:var(--pp)}
+    .upload-prev{margin-top:10px;display:none}
+    .upload-prev img{max-width:100%;max-height:140px;border-radius:8px;border:1px solid var(--cbr);object-fit:cover}
+    .upload-prev .prev-name{font-size:.75rem;color:var(--tm);margin-top:5px}
+    .upload-prev .prev-remove{font-size:.72rem;color:#fca5a5;cursor:pointer;margin-top:3px;display:inline-block;text-decoration:underline}
+
+    /* Number picker */
+    .num-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:4px}
+    .num-btn{background:rgba(255,255,255,.06);border:1.5px solid rgba(168,85,247,.28);border-radius:var(--rs);padding:14px 8px;font-family:'Quicksand',sans-serif;font-size:1.3rem;font-weight:800;color:var(--tl);cursor:pointer;transition:all var(--tr);text-align:center}
+    .num-btn:hover{border-color:var(--pb);background:rgba(124,31,212,.2);transform:translateY(-2px)}
+    .num-btn.selected{background:linear-gradient(135deg,var(--pm),var(--pb));border-color:var(--pb);color:#fff;box-shadow:0 4px 16px rgba(124,31,212,.5);transform:translateY(-2px)}
+
+    /* Checkbox */
+    .cb-wrap{display:flex;align-items:flex-start;gap:11px;cursor:pointer}
+    .cb-wrap input[type=checkbox]{width:19px;height:19px;flex-shrink:0;accent-color:var(--pb);cursor:pointer;margin-top:2px}
+    .cb-wrap span{font-size:.85rem;color:var(--tm);line-height:1.5}
+    .cb-wrap span a{color:var(--pp);text-decoration:underline}
+
+    /* Nav buttons */
+    .modal-nav{display:flex;gap:10px;margin-top:22px}
+    .btn-back{flex:0 0 auto;background:rgba(255,255,255,.07);border:1px solid var(--cbr);color:var(--tm);border-radius:var(--rs);padding:13px 20px;font-family:'Nunito',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;transition:all var(--tr)}
+    .btn-back:hover{background:rgba(255,255,255,.12);color:#fff}
+    .btn-next{flex:1;background:linear-gradient(135deg,var(--pm),var(--pb));color:#fff;border:none;border-radius:var(--rs);padding:14px;font-family:'Quicksand',sans-serif;font-size:1rem;font-weight:800;cursor:pointer;transition:all var(--tr);box-shadow:0 4px 18px rgba(124,31,212,.5);display:flex;align-items:center;justify-content:center;gap:7px}
+    .btn-next:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 8px 28px rgba(124,31,212,.65)}
+    .btn-next:disabled{opacity:.55;cursor:not-allowed}
+    .btn-next .spin{width:17px;height:17px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite;display:none}
+    .btn-next.loading .spin{display:block}
+    .btn-next.loading .btn-txt{display:none}
+    @keyframes sp{to{transform:rotate(360deg)}}
+
+    /* General error */
+    .gen-err{text-align:center;font-size:.82rem;color:#fca5a5;padding:10px 14px;background:rgba(248,113,113,.08);border:1px solid rgba(248,113,113,.2);border-radius:var(--rs);margin-top:12px;display:none}
+    .gen-err.show{display:block}
+
+    /* Success */
+    .form-success{display:none;text-align:center;padding:14px}
+    .form-success.show{display:block}
+    .suc-icon{font-size:3.2rem;margin-bottom:14px;animation:pop .4s cubic-bezier(.34,1.56,.64,1)}
+    @keyframes pop{0%{transform:scale(0)}100%{transform:scale(1)}}
+    .suc-title{font-family:'Quicksand',sans-serif;font-size:1.35rem;font-weight:800;color:#86efac;margin-bottom:7px}
+    .suc-eid{display:inline-block;background:rgba(255,255,255,.07);border:1px solid var(--cbr);border-radius:var(--rs);padding:9px 18px;font-family:monospace;font-size:.95rem;color:var(--pp);margin:11px 0;letter-spacing:2px}
+    .suc-note{color:var(--tm);font-size:.83rem;line-height:1.6}
+    .btn-close-suc{margin-top:18px;background:linear-gradient(135deg,var(--pm),var(--pb));color:#fff;border:none;border-radius:var(--rs);padding:13px 32px;font-family:'Quicksand',sans-serif;font-size:.95rem;font-weight:800;cursor:pointer;transition:all var(--tr)}
+    .btn-close-suc:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(124,31,212,.55)}
+
+    /* ── INFO MODALS ── */
+    .imod-ov{position:fixed;inset:0;background:rgba(8,0,22,.92);backdrop-filter:blur(9px);z-index:2000;display:flex;align-items:center;justify-content:center;padding:18px;opacity:0;pointer-events:none;transition:opacity var(--tr)}
+    .imod-ov.open{opacity:1;pointer-events:all}
+    .imod-box{background:linear-gradient(145deg,#380068,#240050);border:1px solid var(--cbr);border-radius:var(--rm);padding:34px;width:100%;max-width:580px;max-height:85vh;overflow-y:auto;box-shadow:0 24px 80px rgba(0,0,0,.6);position:relative}
+    .imod-box h2{font-family:'Quicksand',sans-serif;font-size:1.35rem;font-weight:800;color:var(--pp);margin-bottom:18px}
+    .imod-box p,.imod-box li{font-size:.86rem;color:var(--tm);line-height:1.7;margin-bottom:9px}
+    .imod-box ul{padding-left:18px}
+
+    /* ── FOOTER ── */
+    footer{background:rgba(0,0,0,.28);border-top:1px solid var(--cbr);padding:38px 18px;margin-top:72px;text-align:center}
+    .fbrand{font-family:'Quicksand',sans-serif;font-size:1.05rem;font-weight:800;color:var(--pp);margin-bottom:7px}
+    .flinks{display:flex;justify-content:center;flex-wrap:wrap;gap:18px;margin:14px 0}
+    .flinks a{color:var(--tm);text-decoration:none;font-size:.83rem;transition:color var(--tr)}
+    .flinks a:hover{color:var(--pp)}
+    .fcopy{font-size:.76rem;color:rgba(255,255,255,.28);margin-top:11px;line-height:1.6}
+
+    /* ── TOAST ── */
+    .toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%) translateY(70px);background:rgba(30,0,64,.96);border:1px solid var(--cbr);border-radius:100px;padding:11px 22px;font-size:.86rem;color:var(--tl);z-index:9999;transition:transform .4s cubic-bezier(.34,1.56,.64,1);pointer-events:none;backdrop-filter:blur(12px);white-space:nowrap}
+    .toast.show{transform:translateX(-50%) translateY(0)}
+
+    /* ── SCROLL REVEAL ── */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.visible{opacity:1;transform:translateY(0)}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:580px){
+      .prize{padding:28px 16px}.cbox{min-width:68px;padding:16px 10px 11px}.cnum{font-size:2rem}
+      .modal-pad{padding:18px 18px 26px}.num-grid{grid-template-columns:repeat(5,1fr);gap:7px}.num-btn{padding:11px 4px;font-size:1.1rem}
+      .rules-card{padding:22px}
+    }
+    ::-webkit-scrollbar{width:5px}
+    ::-webkit-scrollbar-track{background:transparent}
+    ::-webkit-scrollbar-thumb{background:var(--pm);border-radius:100px}
+
+    /* ── STEP ICONS in form ── */
+    .step-header{display:flex;align-items:center;gap:10px;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid rgba(168,85,247,.18)}
+    .step-num-badge{flex-shrink:0;width:34px;height:34px;background:linear-gradient(135deg,var(--pm),var(--pb));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Quicksand',sans-serif;font-weight:800;font-size:.95rem;color:#fff}
+    .step-title-txt{font-family:'Quicksand',sans-serif;font-weight:700;font-size:1.05rem;color:var(--tl)}
+    .step-sub-txt{font-size:.78rem;color:var(--tm);margin-top:1px}
+
+    /* Proof requirement pill */
+    .req-pill{display:inline-flex;align-items:center;gap:5px;background:rgba(251,191,36,.1);border:1px solid rgba(251,191,36,.3);color:#fde047;border-radius:100px;padding:3px 10px;font-size:.74rem;font-weight:700;margin-bottom:14px}
+
+    /* Riot ID helper */
+    .riot-ex{background:rgba(255,255,255,.04);border-radius:var(--rs);padding:10px 13px;font-size:.78rem;color:var(--tm);margin-top:7px;font-family:monospace}
+    .riot-ex span{color:var(--pp)}
+  </style>
+</head>
+<body>
+
+<!-- BACKGROUND -->
+<div class="bg">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="orb o3"></div><div class="orb o4"></div>
+  <div class="stars" id="starsLayer"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HEADER
+═══════════════════════════════════════════ -->
+<div class="wrap">
+<header>
+  <div class="brand-pill">✦ Immo Chan Gaming Channel ✦</div>
+  <h1 class="hero-title">♡ IMMO CHAN GIVEAWAY ♡</h1>
+  <p class="hero-sub">Hosted by <a href="#" class="chl" id="ytLink">Immo Chan Gaming Channel</a></p>
+  <div class="status-wrap">
+    <div class="sbadge" id="statusBadge">
+      <div class="sdot"></div><span id="statusText">Loading…</span>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════════════════════
+     PRIZE BANNER
+═══════════════════════════════════════════ -->
+<section class="prize reveal">
+  <div class="prize-inner">
+    <span class="prize-icon">💎</span>
+    <div class="prize-amt">475 VP</div>
+    <div class="prize-lbl">VALORANT Points</div>
+    <div class="prize-game">VALORANT</div>
+    <div class="pmeta">
+      <div class="pmeta-item"><span class="mv">1</span><span class="mk">Lucky Winner</span></div>
+      <div class="pdiv"></div>
+      <div class="pmeta-item"><span class="mv">15</span><span class="mk">Day Giveaway</span></div>
+      <div class="pdiv"></div>
+      <div class="pmeta-item"><span class="mv">FREE</span><span class="mk">No Purchase</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     COUNTDOWN
+═══════════════════════════════════════════ -->
+<section class="section reveal" id="cdSec">
+  <div class="sec-title">⏳ Time Remaining</div>
+  <div class="cg" id="cdGrid">
+    <div class="cbox"><div class="cnum" id="cd-d">--</div><div class="clbl">Days</div></div>
+    <div class="csep">:</div>
+    <div class="cbox"><div class="cnum" id="cd-h">--</div><div class="clbl">Hours</div></div>
+    <div class="csep">:</div>
+    <div class="cbox"><div class="cnum" id="cd-m">--</div><div class="clbl">Mins</div></div>
+    <div class="csep">:</div>
+    <div class="cbox"><div class="cnum" id="cd-s">--</div><div class="clbl">Secs</div></div>
+  </div>
+  <p id="cdNote" style="text-align:center;margin-top:14px;color:var(--tm);font-size:.83rem;"></p>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     CTA
+═══════════════════════════════════════════ -->
+<div class="cta-wrap reveal">
+  <button class="btn-enter" id="enterBtn" onclick="openEntryModal()">
+    <span>✨</span><span>Enter the Giveaway</span>
+  </button>
+  <p style="color:var(--tm);font-size:.78rem;margin-top:8px;">Free entry · No purchase · One entry per person</p>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     HOW IT WORKS
+═══════════════════════════════════════════ -->
+<section class="section reveal">
+  <div class="sec-title">📋 How To Enter</div>
+  <div class="cards">
+    <div class="card">
+      <span class="card-icon">📧</span>
+      <div class="card-title">Step 1 — Your Gmail</div>
+      <div class="card-text">Enter your Gmail address. This prevents duplicate entries and is used only for giveaway administration.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📸</span>
+      <div class="card-title">Step 2 — Proof Screenshots</div>
+      <div class="card-text">Upload screenshots showing you subscribed on YouTube, followed on Instagram, and joined the Instagram broadcast channel.</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🎲</span>
+      <div class="card-title">Step 3 — Pick a Number</div>
+      <div class="card-text">Choose any lucky number from 1 to 10. Add your Riot ID and you're done!</div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📢</span>
+      <div class="card-title">Winner Announced Live</div>
+      <div class="card-text">1 winner selected randomly during a live YouTube stream. Winner has 48 hours to respond.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     RULES
+═══════════════════════════════════════════ -->
+<section class="section reveal" id="rulesSection">
+  <div class="sec-title">📜 Giveaway Rules</div>
+  <div class="rules-card">
+    <ul class="rules-list">
+      <li><div class="rn">1</div><span>Free entry — no purchase necessary. This giveaway is completely free.</span></li>
+      <li><div class="rn">2</div><span>One (1) entry per Gmail address. Duplicate submissions will be disqualified.</span></li>
+      <li><div class="rn">3</div><span>Entries close after 15 days from the giveaway start date.</span></li>
+      <li><div class="rn">4</div><span>You must subscribe to the YouTube channel, follow on Instagram, and join the Instagram broadcast channel to be eligible.</span></li>
+      <li><div class="rn">5</div><span>Proof screenshots are required. Entries without valid screenshots may be marked invalid.</span></li>
+      <li><div class="rn">6</div><span>One (1) winner selected randomly during a live YouTube livestream.</span></li>
+      <li><div class="rn">7</div><span>Winner must respond within 48 hours or a replacement winner will be selected.</span></li>
+      <li><div class="rn">8</div><span>Your Riot ID is collected only to deliver the prize. It is not stored beyond prize delivery.</span></li>
+      <li><div class="rn">9</div><span>All entry data will be permanently deleted within 30 days of the giveaway closing.</span></li>
+      <li><div class="rn">10</div><span>This giveaway is not sponsored, endorsed, or administered by YouTube, Instagram, Meta, or Riot Games.</span></li>
+    </ul>
+    <div class="rdis">
+      <strong>Privacy:</strong> Your Gmail, screenshots, and Riot ID are collected solely to administer this giveaway. Data is never sold or shared. All data deleted within 30 days after winner is contacted.
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     WINNER
+═══════════════════════════════════════════ -->
+<section class="section reveal" id="winnerSection">
+  <div class="sec-title">🏆 Winner Announcement</div>
+  <div class="winner-sec">
+    <div class="w-ph" id="wPH">
+      <div class="wtrophy">🏆</div>
+      <div class="wpend">The winner will be announced live on the Immo Chan Gaming Channel YouTube stream after entries close.</div>
+      <a href="#" class="chl" style="font-size:.88rem;" id="watchLink">📺 Watch the livestream</a>
+    </div>
+    <div class="wannounced" id="wAnn">
+      <div style="font-size:2.5rem;">🎉</div>
+      <div class="wname" id="wName"></div>
+      <div style="color:var(--tm);font-size:.83rem;margin-top:7px;">Congratulations! Please check your messages.</div>
+    </div>
+  </div>
+</section>
+
+</div><!-- /wrap -->
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <div class="fbrand">♡ Immo Chan Gaming Channel ♡</div>
+  <div class="flinks">
+    <a href="#" id="ftYT">📺 YouTube Channel</a>
+    <a href="#" id="ftIG">📸 Instagram</a>
+    <a href="#" onclick="openImod('rulesModal');return false;">📜 Giveaway Rules</a>
+    <a href="#" onclick="openImod('privModal');return false;">🔒 Privacy Policy</a>
+    <a href="#" id="ftContact">✉ Contact</a>
+  </div>
+  <div class="fcopy">
+    © 2026 Immo Chan Gaming Channel · Not affiliated with YouTube, Instagram, Meta or Riot Games.<br>
+    Entry data collected solely for giveaway administration and deleted within 30 days of the draw.
+  </div>
+</footer>
+
+<!-- ═══════════════════════════════════════════
+     ENTRY MODAL (Multi-step)
+═══════════════════════════════════════════ -->
+<div class="modal-ov" id="entryModal" onclick="closeOvClick(event,'entryModal')">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal('entryModal')" aria-label="Close">✕</button>
+    <div class="prog-bar"><div class="prog-fill" id="progFill" style="width:25%"></div></div>
+    <div class="steps-ind" id="stepsInd"></div>
+
+    <div class="modal-pad">
+
+      <!-- SUCCESS STATE -->
+      <div class="form-success" id="entrySuccess">
+        <div class="suc-icon">🎊</div>
+        <div class="suc-title">You're In! Good Luck! ♡</div>
+        <p style="color:var(--tm);font-size:.86rem;">Your entry has been submitted successfully.</p>
+        <div class="suc-eid" id="sucEid">—</div>
+        <div class="suc-note">Save your Entry ID! The winner will be announced live on the Immo Chan Gaming Channel YouTube stream. We'll contact the winner within 48 hours of the draw.</div>
+        <button class="btn-close-suc" onclick="closeModal('entryModal')">✓ Close</button>
+      </div>
+
+      <!-- STEP 1 — Gmail + YouTube Name -->
+      <div class="step-panel active" id="step1">
+        <div class="step-header">
+          <div class="step-num-badge">1</div>
+          <div>
+            <div class="step-title-txt">Your Details</div>
+            <div class="step-sub-txt">We use your Gmail to prevent duplicate entries</div>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label class="fl" for="fGmail">Gmail Address *</label>
+          <input type="email" id="fGmail" class="fi" placeholder="yourname@gmail.com" autocomplete="email" />
+          <div class="fhint">Must be a valid Gmail. Used only to prevent duplicate entries.</div>
+          <div class="ferr" id="eGmail">Please enter a valid Gmail address.</div>
+        </div>
+
+        <div class="fg">
+          <label class="fl" for="fYTName">YouTube Display Name *</label>
+          <input type="text" id="fYTName" class="fi" placeholder="e.g. ImmoChanFan" maxlength="100" autocomplete="off" />
+          <div class="fhint">Your YouTube channel name exactly as it appears.</div>
+          <div class="ferr" id="eYTName">Please enter your YouTube display name (min 2 characters).</div>
+        </div>
+
+        <div class="gen-err" id="genErr1"></div>
+        <div class="modal-nav">
+          <button class="btn-next" id="btn1" onclick="goStep(2)">
+            <div class="spin"></div><span class="btn-txt">Next — Upload Proofs →</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 2 — Screenshots -->
+      <div class="step-panel" id="step2">
+        <div class="step-header">
+          <div class="step-num-badge">2</div>
+          <div>
+            <div class="step-title-txt">Upload Proof Screenshots</div>
+            <div class="step-sub-txt">All 3 screenshots are required</div>
+          </div>
+        </div>
+
+        <div class="req-pill">⚠ All 3 screenshots required for a valid entry</div>
+
+        <!-- YouTube subscription proof -->
+        <div class="fg">
+          <label class="fl">YouTube Subscription Screenshot *</label>
+          <div class="upload-box" id="ub-yt" ondragover="onDrag(event,'ub-yt')" ondragleave="offDrag('ub-yt')" ondrop="onDrop(event,'ub-yt','fYTProof')">
+            <input type="file" id="fYTProof" accept="image/*" onchange="prevFile('fYTProof','prev-yt','ub-yt')" />
+            <div class="upload-icon">📺</div>
+            <div class="upload-txt"><strong>Click or drag</strong> your YouTube subscription screenshot here<br><span style="font-size:.72rem;color:var(--tm);">JPG, PNG, WEBP · Max 4MB</span></div>
+            <div class="upload-prev" id="prev-yt"></div>
+          </div>
+          <div class="ferr" id="eYTProof">Please upload your YouTube subscription screenshot.</div>
+        </div>
+
+        <!-- Instagram follow proof -->
+        <div class="fg">
+          <label class="fl">Instagram Follow Screenshot *</label>
+          <div class="upload-box" id="ub-ig" ondragover="onDrag(event,'ub-ig')" ondragleave="offDrag('ub-ig')" ondrop="onDrop(event,'ub-ig','fIGProof')">
+            <input type="file" id="fIGProof" accept="image/*" onchange="prevFile('fIGProof','prev-ig','ub-ig')" />
+            <div class="upload-icon">📸</div>
+            <div class="upload-txt"><strong>Click or drag</strong> your Instagram follow screenshot here<br><span style="font-size:.72rem;color:var(--tm);">JPG, PNG, WEBP · Max 4MB</span></div>
+            <div class="upload-prev" id="prev-ig"></div>
+          </div>
+          <div class="ferr" id="eIGProof">Please upload your Instagram follow screenshot.</div>
+        </div>
+
+        <!-- Broadcast channel proof -->
+        <div class="fg">
+          <label class="fl">Instagram Broadcast Channel Join Screenshot *</label>
+          <div class="upload-box" id="ub-bc" ondragover="onDrag(event,'ub-bc')" ondragleave="offDrag('ub-bc')" ondrop="onDrop(event,'ub-bc','fBCProof')">
+            <input type="file" id="fBCProof" accept="image/*" onchange="prevFile('fBCProof','prev-bc','ub-bc')" />
+            <div class="upload-icon">📡</div>
+            <div class="upload-txt"><strong>Click or drag</strong> your broadcast channel join screenshot here<br><span style="font-size:.72rem;color:var(--tm);">JPG, PNG, WEBP · Max 4MB</span></div>
+            <div class="upload-prev" id="prev-bc"></div>
+          </div>
+          <div class="ferr" id="eBCProof">Please upload your broadcast channel join screenshot.</div>
+        </div>
+
+        <div class="gen-err" id="genErr2"></div>
+        <div class="modal-nav">
+          <button class="btn-back" onclick="goStep(1)">← Back</button>
+          <button class="btn-next" id="btn2" onclick="goStep(3)">
+            <div class="spin"></div><span class="btn-txt">Next — Lucky Number →</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- STEP 3 — Number + Riot ID -->
+      <div class="step-panel" id="step3">
+        <div class="step-header">
+          <div class="step-num-badge">3</div>
+          <div>
+            <div class="step-title-txt">Almost Done!</div>
+            <div class="step-sub-txt">Pick your lucky number and enter your Riot ID</div>
+          </div>
+        </div>
+
+        <div class="fg">
+          <label class="fl">Pick Your Lucky Number (1 – 10) *</label>
+          <div class="num-grid" id="numGrid">
+            <!-- Generated by JS -->
+          </div>
+          <div class="ferr" id="eNum">Please choose a lucky number.</div>
+        </div>
+
+        <div class="fg">
+          <label class="fl" for="fRiotId">Riot ID *</label>
+          <input type="text" id="fRiotId" class="fi" placeholder="e.g. ImmoChanFan#EUW" maxlength="80" autocomplete="off" />
+          <div class="riot-ex">Format: <span>Username#Tagline</span> &nbsp;·&nbsp; Example: <span>ImmoChanFan#EUW</span></div>
+          <div class="ferr" id="eRiotId">Please enter your Riot ID in the correct format (Name#Tag).</div>
+        </div>
+
+        <div class="fg" style="margin-top:6px;">
+          <label class="cb-wrap" id="agreeWrap">
+            <input type="checkbox" id="fAgree" />
+            <span>I have read and agree to the <a href="#" onclick="openImod('rulesModal');return false;">Giveaway Rules</a>. I confirm all screenshots are genuine and the accounts are mine.</span>
+          </label>
+          <div class="ferr" id="eAgree">You must agree to the rules to enter.</div>
+        </div>
+
+        <div class="gen-err" id="genErr3"></div>
+        <div class="modal-nav">
+          <button class="btn-back" onclick="goStep(2)">← Back</button>
+          <button class="btn-next" id="btn3" onclick="submitEntry()">
+            <div class="spin"></div><span class="btn-txt">🎉 Submit Entry</span>
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /modal-pad -->
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     INFO MODALS
+═══════════════════════════════════════════ -->
+<div class="imod-ov" id="rulesModal" onclick="closeOvClick(event,'rulesModal')">
+  <div class="imod-box">
+    <button class="modal-close" onclick="closeImod('rulesModal')">✕</button>
+    <h2>📜 Full Giveaway Rules</h2>
+    <ul>
+      <li>Free entry — no purchase necessary.</li>
+      <li>One (1) entry per Gmail address. Duplicates disqualified.</li>
+      <li>Giveaway open for 15 days from start date.</li>
+      <li>Must subscribe on YouTube, follow on Instagram, and join the Instagram broadcast channel.</li>
+      <li>Proof screenshots required for all three. Invalid screenshots may disqualify entry.</li>
+      <li>One (1) winner selected randomly during a live YouTube stream.</li>
+      <li>Winner must respond within 48 hours or a replacement will be selected.</li>
+      <li>Riot ID used solely to deliver the prize.</li>
+      <li>Not affiliated with YouTube, Instagram, Meta, or Riot Games.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="imod-ov" id="privModal" onclick="closeOvClick(event,'privModal')">
+  <div class="imod-box">
+    <button class="modal-close" onclick="closeImod('privModal')">✕</button>
+    <h2>🔒 Privacy Policy</h2>
+    <p><strong>What we collect:</strong> Gmail address, YouTube display name, proof screenshots, lucky number, and Riot ID.</p>
+    <p><strong>Why:</strong> To administer the giveaway, prevent duplicate entries, verify eligibility, and deliver the prize.</p>
+    <p><strong>Who sees it:</strong> Only the Immo Chan Gaming Channel administrator. Never sold or shared with third parties.</p>
+    <p><strong>Screenshots:</strong> Stored in private Google Drive, accessible only to the administrator.</p>
+    <p><strong>Riot ID:</strong> Used only to send the prize. Deleted after delivery.</p>
+    <p><strong>Retention:</strong> All data permanently deleted within 30 days of giveaway closing.</p>
+    <p><strong>Your rights:</strong> Request removal by contacting Immo Chan Gaming Channel directly.</p>
+    <p>Not sponsored by YouTube, Instagram, Meta, or Riot Games.</p>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════ -->
+<script>
+'use strict';
+
+/* ── CONFIG ── ⚠ Update before going live ── */
+const CFG = {
+  APPS_SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbzGUIcuz9ii80xh9NS_UP1igQrh_66QO80O6nEzRe9_mrTIf-8Hw0yMwDCa-Rr7vef2jA/exec',
+  START_DATE:      new Date('11/9/2026-08T00:00:00'),
+  END_DATE:        new Date('11/23/2026-23T23:59:59'), // 15 days
+  YOUTUBE_URL:     'https://www.youtube.com/@ImmoChanGaming',
+  INSTAGRAM_URL:   'https://www.instagram.com/im.immo_',
+  LS_KEY:          'immochan_gw_entry',
+};
+
+const TOTAL_STEPS = 3;
+let currentStep   = 1;
+let selectedNum   = null;
+let isSubmitting  = false;
+
+/* ── INIT ── */
+document.addEventListener('DOMContentLoaded', () => {
+  setLinks();
+  genStars();
+  initStatus();
+  startCountdown();
+  initReveal();
+  buildNumGrid();
+  buildStepDots();
+  checkAlreadyEntered();
+});
+
+function setLinks() {
+  ['ytLink','ftYT','watchLink'].forEach(id => { const el = document.getElementById(id); if(el) el.href = CFG.YOUTUBE_URL; });
+  const ig = document.getElementById('ftIG'); if(ig) ig.href = CFG.INSTAGRAM_URL;
+}
+
+/* ── STARS ── */
+function genStars() {
+  const l = document.getElementById('starsLayer');
+  for (let i = 0; i < 65; i++) {
+    const s = document.createElement('div');
+    s.className = 'star';
+    const sz = Math.random() * 2.5 + 0.4;
+    s.style.cssText = `width:${sz}px;height:${sz}px;top:${Math.random()*100}%;left:${Math.random()*100}%;animation-duration:${(Math.random()*3+1.4).toFixed(1)}s;animation-delay:${(Math.random()*4).toFixed(1)}s`;
+    l.appendChild(s);
+  }
+}
+
+/* ── STATUS ── */
+function initStatus() {
+  const now = new Date(), badge = document.getElementById('statusBadge'), txt = document.getElementById('statusText'), btn = document.getElementById('enterBtn');
+  if (now < CFG.START_DATE) {
+    badge.className='sbadge upcoming'; txt.textContent='⏳ Giveaway Starting Soon';
+    btn.className='btn-enter closed'; btn.innerHTML='<span>🕒</span><span>Not Yet Open</span>'; btn.onclick=null;
+  } else if (now > CFG.END_DATE) {
+    badge.className='sbadge closed'; txt.textContent='🔒 Giveaway Closed';
+    btn.className='btn-enter closed'; btn.innerHTML='<span>🔒</span><span>Entries Closed</span>'; btn.onclick=null;
+  } else {
+    badge.className='sbadge active'; txt.textContent='✅ Giveaway Active — Enter Now!';
+  }
+}
+
+/* ── COUNTDOWN ── */
+function pad(n){return String(n).padStart(2,'0')}
+function startCountdown() {
+  function tick() {
+    const now = new Date(); let target = CFG.END_DATE, note = '';
+    if (now < CFG.START_DATE) { target = CFG.START_DATE; note = 'until giveaway opens'; }
+    else if (now > CFG.END_DATE) {
+      document.getElementById('cdGrid').innerHTML='<p style="color:var(--tm);font-size:1rem;">Entries have closed. Winner announcement coming soon!</p>';
+      document.getElementById('cdNote').textContent=''; return;
+    } else { note = 'until entries close'; }
+    const diff = Math.max(0, target - now);
+    document.getElementById('cd-d').textContent = pad(Math.floor(diff/86400000));
+    document.getElementById('cd-h').textContent = pad(Math.floor((diff%86400000)/3600000));
+    document.getElementById('cd-m').textContent = pad(Math.floor((diff%3600000)/60000));
+    document.getElementById('cd-s').textContent = pad(Math.floor((diff%60000)/1000));
+    document.getElementById('cdNote').textContent = note;
+  }
+  tick(); setInterval(tick,1000);
+}
+
+/* ── SCROLL REVEAL ── */
+function initReveal() {
+  const obs = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);} }),{threshold:.1});
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+}
+
+/* ── STEP DOTS ── */
+function buildStepDots() {
+  const ind = document.getElementById('stepsInd'); ind.innerHTML = '';
+  for (let i = 1; i <= TOTAL_STEPS; i++) {
+    const d = document.createElement('div');
+    d.id = `dot${i}`;
+    d.className = 'step-dot' + (i===1?' active':'');
+    ind.appendChild(d);
+  }
+}
+
+function updateDots(step) {
+  for (let i = 1; i <= TOTAL_STEPS; i++) {
+    const d = document.getElementById(`dot${i}`);
+    if (!d) continue;
+    d.className = 'step-dot' + (i < step ? ' done' : i === step ? ' active' : '');
+  }
+}
+
+function updateProgress(step) {
+  document.getElementById('progFill').style.width = `${(step/TOTAL_STEPS)*100}%`;
+  updateDots(step);
+}
+
+/* ── NUMBER GRID ── */
+function buildNumGrid() {
+  const g = document.getElementById('numGrid'); g.innerHTML = '';
+  for (let n = 1; n <= 10; n++) {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'num-btn'; b.textContent = n;
+    b.onclick = () => pickNum(n, b);
+    g.appendChild(b);
+  }
+}
+
+function pickNum(n, btn) {
+  selectedNum = n;
+  document.querySelectorAll('.num-btn').forEach(b => b.classList.remove('selected'));
+  btn.classList.add('selected');
+  document.getElementById('eNum').classList.remove('show');
+}
+
+/* ── MODAL ── */
+function openEntryModal() {
+  const now = new Date();
+  if (now < CFG.START_DATE || now > CFG.END_DATE) return;
+  if (localStorage.getItem(CFG.LS_KEY)) return;
+  resetForm();
+  document.getElementById('entryModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(id) {
+  document.getElementById(id).classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function closeOvClick(e, id) { if (e.target.id === id) closeModal(id); }
+
+function openImod(id)  { document.getElementById(id).classList.add('open'); document.body.style.overflow='hidden'; }
+function closeImod(id) { document.getElementById(id).classList.remove('open'); document.body.style.overflow=''; }
+
+/* ── ALREADY ENTERED ── */
+function checkAlreadyEntered() {
+  const eid = localStorage.getItem(CFG.LS_KEY);
+  if (!eid) return;
+  const btn = document.getElementById('enterBtn');
+  btn.className = 'btn-enter entered';
+  btn.innerHTML = `<span>✅</span><span>Already Entered (${eid})</span>`;
+  btn.onclick = null;
+}
+
+/* ── RESET ── */
+function resetForm() {
+  currentStep = 1; selectedNum = null;
+  document.querySelectorAll('.step-panel').forEach((p,i) => { p.classList.toggle('active', i===0); });
+  document.getElementById('entrySuccess').classList.remove('show');
+  document.getElementById('entrySuccess').style.display = '';
+  document.querySelectorAll('.step-panel').forEach(p => p.style.display='');
+  document.getElementById('step1').style.display = '';
+  ['fGmail','fYTName','fRiotId'].forEach(id => { const el=document.getElementById(id); if(el) el.value=''; el && el.classList.remove('err'); });
+  document.getElementById('fAgree').checked = false;
+  ['fYTProof','fIGProof','fBCProof'].forEach(clearUpload);
+  document.querySelectorAll('.num-btn').forEach(b => b.classList.remove('selected'));
+  document.querySelectorAll('.ferr,.gen-err').forEach(e => e.classList.remove('show'));
+  updateProgress(1);
+  // Reset submit btn
+  const b3 = document.getElementById('btn3');
+  b3.classList.remove('loading'); b3.disabled = false;
+}
+
+/* ── FILE UPLOAD PREVIEW ── */
+function prevFile(inputId, prevId, boxId) {
+  const input = document.getElementById(inputId);
+  const prev  = document.getElementById(prevId);
+  if (!input.files || !input.files[0]) { prev.style.display='none'; return; }
+  const file = input.files[0];
+  if (file.size > 4 * 1024 * 1024) {
+    showToast('⚠ File too large. Max 4MB.'); input.value=''; prev.style.display='none'; return;
+  }
+  const reader = new FileReader();
+  reader.onload = e => {
+    prev.style.display = 'block';
+    prev.innerHTML = `<img src="${e.target.result}" alt="Preview" /><div class="prev-name">${esc(file.name)}</div><span class="prev-remove" onclick="clearUpload('${inputId}')">✕ Remove</span>`;
+  };
+  reader.readAsDataURL(file);
+  document.getElementById(boxId).classList.add('drag');
+  setTimeout(()=>document.getElementById(boxId).classList.remove('drag'),300);
+}
+
+function clearUpload(inputId) {
+  const input = document.getElementById(inputId); if(!input) return;
+  input.value = '';
+  const mapping = {'fYTProof':'prev-yt','fIGProof':'prev-ig','fBCProof':'prev-bc'};
+  const prev = document.getElementById(mapping[inputId]); if(prev) prev.style.display='none';
+}
+
+function onDrag(e, boxId)  { e.preventDefault(); document.getElementById(boxId).classList.add('drag'); }
+function offDrag(boxId)    { document.getElementById(boxId).classList.remove('drag'); }
+function onDrop(e, boxId, inputId) {
+  e.preventDefault(); offDrag(boxId);
+  const dt = e.dataTransfer; if (!dt || !dt.files[0]) return;
+  const input = document.getElementById(inputId);
+  const mapping = {'fYTProof':'prev-yt','fIGProof':'prev-ig','fBCProof':'prev-bc'};
+  // Create a DataTransfer to assign to file input
+  try {
+    const dtr = new DataTransfer(); dtr.items.add(dt.files[0]); input.files = dtr.files;
+  } catch(err) { /* Firefox fallback — user must click */ }
+  prevFile(inputId, mapping[inputId], boxId);
+}
+
+/* ── STEP NAVIGATION ── */
+async function goStep(n) {
+  if (n > currentStep) {
+    const ok = await validateStep(currentStep);
+    if (!ok) return;
+  }
+  currentStep = n;
+  document.querySelectorAll('.step-panel').forEach((p,i) => p.classList.toggle('active', i===n-1));
+  updateProgress(n);
+  document.querySelector('.modal-box').scrollTop = 0;
+}
+
+/* ── VALIDATION ── */
+function clrField(inputId, errId) {
+  document.getElementById(inputId) && document.getElementById(inputId).classList.remove('err');
+  document.getElementById(errId)   && document.getElementById(errId).classList.remove('show');
+}
+
+function markErr(inputId, errId) {
+  document.getElementById(inputId) && document.getElementById(inputId).classList.add('err');
+  document.getElementById(errId)   && document.getElementById(errId).classList.add('show');
+}
+
+function isValidGmail(email) {
+  return /^[a-zA-Z0-9._%+\-]+@gmail\.com$/i.test(email.trim());
+}
+
+async function validateStep(step) {
+  if (step === 1) {
+    let ok = true;
+    const gmail = document.getElementById('fGmail').value.trim();
+    const ytName= document.getElementById('fYTName').value.trim();
+    clrField('fGmail','eGmail'); clrField('fYTName','eYTName');
+    document.getElementById('genErr1').classList.remove('show');
+
+    if (!isValidGmail(gmail)) { markErr('fGmail','eGmail'); ok=false; }
+    if (ytName.length < 2)   { markErr('fYTName','eYTName'); ok=false; }
+    if (!ok) return false;
+
+    // Check duplicate Gmail (client-side fast check first)
+    const stored = localStorage.getItem(CFG.LS_KEY);
+    if (stored) {
+      const g = document.getElementById('genErr1');
+      g.textContent = 'This Gmail has already been used to enter. Only one entry per person.';
+      g.classList.add('show'); return false;
+    }
+    return true;
+  }
+
+  if (step === 2) {
+    let ok = true;
+    const yt = document.getElementById('fYTProof').files[0];
+    const ig = document.getElementById('fIGProof').files[0];
+    const bc = document.getElementById('fBCProof').files[0];
+    document.getElementById('genErr2').classList.remove('show');
+    if (!yt) { document.getElementById('eYTProof').classList.add('show'); ok=false; } else { document.getElementById('eYTProof').classList.remove('show'); }
+    if (!ig) { document.getElementById('eIGProof').classList.add('show'); ok=false; } else { document.getElementById('eIGProof').classList.remove('show'); }
+    if (!bc) { document.getElementById('eBCProof').classList.add('show'); ok=false; } else { document.getElementById('eBCProof').classList.remove('show'); }
+    return ok;
+  }
+
+  return true;
+}
+
+/* ── FILE TO BASE64 ── */
+function fileToBase64(file) {
+  return new Promise((res, rej) => {
+    const r = new FileReader();
+    r.onload  = e => res(e.target.result.split(',')[1]);
+    r.onerror = rej;
+    r.readAsDataURL(file);
+  });
+}
+
+/* ── SUBMIT ── */
+async function submitEntry() {
+  if (isSubmitting) return;
+
+  // Validate step 3
+  let ok = true;
+  clrField('fRiotId','eRiotId');
+  document.getElementById('eNum').classList.remove('show');
+  document.getElementById('eAgree').classList.remove('show');
+  document.getElementById('genErr3').classList.remove('show');
+
+  if (selectedNum === null) { document.getElementById('eNum').classList.add('show'); ok=false; }
+
+  const riotRaw = document.getElementById('fRiotId').value.trim();
+  if (!riotRaw || !/^.+#.+$/.test(riotRaw)) { markErr('fRiotId','eRiotId'); ok=false; }
+
+  if (!document.getElementById('fAgree').checked) { document.getElementById('eAgree').classList.add('show'); ok=false; }
+
+  if (!ok) return;
+
+  // Check giveaway window
+  const now = new Date();
+  if (now < CFG.START_DATE || now > CFG.END_DATE) {
+    document.getElementById('genErr3').textContent='The giveaway is not currently accepting entries.';
+    document.getElementById('genErr3').classList.add('show'); return;
+  }
+
+  isSubmitting = true;
+  const btn3 = document.getElementById('btn3');
+  btn3.classList.add('loading'); btn3.disabled = true;
+
+  const gmail   = document.getElementById('fGmail').value.trim().toLowerCase();
+  const ytName  = sanitize(document.getElementById('fYTName').value);
+  const riotId  = sanitize(riotRaw);
+  const entryId = genId();
+  const ts      = new Date().toISOString();
+
+  try {
+    // Convert screenshots to base64
+    const [ytB64, igB64, bcB64] = await Promise.all([
+      fileToBase64(document.getElementById('fYTProof').files[0]),
+      fileToBase64(document.getElementById('fIGProof').files[0]),
+      fileToBase64(document.getElementById('fBCProof').files[0]),
+    ]);
+
+    const payload = {
+      entryId, gmail, ytName, riotId,
+      luckyNumber: selectedNum,
+      timestamp: ts,
+      ytProof: ytB64,
+      igProof: igB64,
+      bcProof: bcB64,
+      ytProofName: document.getElementById('fYTProof').files[0].name,
+      igProofName: document.getElementById('fIGProof').files[0].name,
+      bcProofName: document.getElementById('fBCProof').files[0].name,
+    };
+
+    if (CFG.APPS_SCRIPT_URL && CFG.APPS_SCRIPT_URL !== 'YOUR_APPS_SCRIPT_URL_HERE') {
+      const resp = await fetch(CFG.APPS_SCRIPT_URL, {
+        method: 'POST',
+        headers: {'Content-Type':'text/plain'},
+        body: JSON.stringify(payload)
+      });
+      const data = await resp.json();
+
+      if (data.status === 'success') {
+        onSuccess(entryId);
+      } else if (data.status === 'duplicate') {
+        const g = document.getElementById('genErr3');
+        g.textContent = 'This Gmail has already been used to enter. Only one entry per Gmail.';
+        g.classList.add('show');
+        btn3.classList.remove('loading'); btn3.disabled = false;
+        isSubmitting = false;
+      } else {
+        throw new Error(data.message || 'Server error');
+      }
+    } else {
+      // DEMO MODE
+      await new Promise(r => setTimeout(r, 1400));
+      onSuccess(entryId);
+    }
+  } catch (err) {
+    console.error(err);
+    document.getElementById('genErr3').textContent = 'Submission failed. Please check your connection and try again.';
+    document.getElementById('genErr3').classList.add('show');
+    btn3.classList.remove('loading'); btn3.disabled = false;
+    isSubmitting = false;
+  }
+}
+
+function onSuccess(entryId) {
+  localStorage.setItem(CFG.LS_KEY, entryId);
+  document.getElementById('sucEid').textContent = entryId;
+  // Hide all step panels
+  document.querySelectorAll('.step-panel').forEach(p => { p.style.display='none'; p.classList.remove('active'); });
+  document.getElementById('stepsInd').style.display='none';
+  document.getElementById('progFill').style.width='100%';
+  const suc = document.getElementById('entrySuccess');
+  suc.style.display='block'; suc.classList.add('show');
+  checkAlreadyEntered();
+  isSubmitting = false;
+}
+
+/* ── HELPERS ── */
+function sanitize(s){ return String(s||'').trim().replace(/[<>"']/g,'').substring(0,200); }
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function genId(){
+  const c='ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; let id='IC-';
+  for(let i=0;i<8;i++) id+=c[Math.floor(Math.random()*c.length)]; return id;
+}
+
+function showToast(msg, ms=3000) {
+  const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),ms);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key==='Escape') {
+    ['entryModal','rulesModal','privModal'].forEach(id => { if(document.getElementById(id).classList.contains('open')) { closeModal(id); closeImod(id); } });
+  }
+});
+</script>
+
+</body>
+</html>
